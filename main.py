@@ -1,5 +1,6 @@
 from datetime import datetime
 
+# Дата для газеты "The Moscow Times"
 moscow_times_date = "Wednesday, October 2, 2002"
 moscow_times_format = "%A, %B %d, %Y" 
 moscow_times_datetime = datetime.strptime(moscow_times_date, moscow_times_format)
